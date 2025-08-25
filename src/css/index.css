@@ -1,0 +1,52 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Space Grotesk", sans-serif;
+    background: #0a0a0a;
+    color: white;
+}
+
+@layer utilities {
+    @keyframes loading {
+        0% {
+            transform: translateX(-100%);
+        }
+        100% {
+            transform: translateX(100%);
+        }
+    }
+
+    @keyframes blink {
+        0%,100% {
+            opacity: 1;
+        }
+        50%{
+            opacity: 0;
+        }
+    }
+
+    .animate-loading-bar{
+        animation:
+            loading 0.9s linear infinite alternate;
+    }
+    .animate-blink {
+        animation: blink 0.9s step-end infinite;
+    }
+    
+    .gradient-text {
+        background: linear-gradient(135deg, #ffffff 0%, #e5e7eb 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+}
