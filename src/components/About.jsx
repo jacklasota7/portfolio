@@ -52,7 +52,7 @@ function About() {
             </p>
 
             <p className="text-sm text-gray-300 leading-relaxed font-mono">
-              I'm a first-generation Polish-American, and my heritage plays a big role in who I am. That's why, in addition to my Computational Biology major, I minored in Polish Studies and even had the chance to study abroad in Kraków, Poland. Outside of academics, I'm happiest outdoors—snowboarding, hiking, or playing sports. Baseball was my first love, and as someone from the D.C. area, I'll always be a die-hard Nationals fan (2019 Champs!). When I'm not outside, I'm usually relaxing with a good video game—right now, I'm hooked on Spider-Man 2 for PS5.
+              I'm a first-generation Polish-American, and my heritage plays a big role in who I am. That's why, in addition to my Computational Biology major, I minored in Polish Studies and even had the chance to study abroad in Kraków, Poland. Outside of academics, I'm happiest outdoors snowboarding, hiking, or playing sports. Baseball was my first love, and as someone from the D.C. area, I'll always be a die-hard Nationals fan (2019 Champs!). When I'm not outside, I'm usually relaxing with a good video game. Right now, I'm hooked on Spider-Man 2 for PS5.
             </p>
           </div>
         </div>

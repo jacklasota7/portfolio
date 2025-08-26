@@ -28,8 +28,8 @@ const Navbar = () => {
             <div className="hidden md:flex items-center space-x-6">
               <a href="#home" className="inline-flex items-center justify-center h-10 px-3 text-sm md:text-base font-mono font-medium text-white !no-underline hover:text-gray-300 transition-colors duration-200">Home</a>
               <a href="#about" className="inline-flex items-center justify-center h-10 px-3 text-sm md:text-base font-mono font-medium text-white !no-underline hover:text-gray-300 transition-colors duration-200">About</a>
-              <a href="#projects" className="inline-flex items-center justify-center h-10 px-3 text-sm md:text-base font-mono font-medium text-white !no-underline hover:text-gray-300 transition-colors duration-200">Projects</a>
               <a href="#skills" className="inline-flex items-center justify-center h-10 px-3 text-sm md:text-base font-mono font-medium text-white !no-underline hover:text-gray-300 transition-colors duration-200">Skills</a>
+              <a href="#projects" className="inline-flex items-center justify-center h-10 px-3 text-sm md:text-base font-mono font-medium text-white !no-underline hover:text-gray-300 transition-colors duration-200">Projects</a>
               <a href="#contact" className="inline-flex items-center justify-center h-10 px-3 text-sm md:text-base font-mono font-medium text-white !no-underline hover:text-gray-300 transition-colors duration-200">Contact</a>
             </div>
           </div>
