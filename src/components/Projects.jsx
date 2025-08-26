@@ -28,31 +28,30 @@ function Projects() {
           </p>
         </div>
         
-        <div className="grid gap-8">
+        <div className="grid gap-8 md:grid-cols-1 lg:grid-cols-1">
           {projects.map((project) => (
             <div 
               key={project.id}
-              className="bg-white/5 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-white/10 ring-2 ring-white/30"
+              className="bg-white/5 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-white/10 ring-2 ring-white/30 flex flex-col"
             >
               {/* Project Header */}
-              <div className="p-6 border-b border-white/10">
-                <div className="flex items-center gap-4 mb-4">
-                  <div className="text-4xl">{project.image}</div>
-                  <div className="flex-1">
-                    <h3 className="text-2xl font-semibold text-white mb-2 font-mono">
+              <div className="p-4 sm:p-6 border-b border-white/10 flex flex-col gap-4">
+                <div className="flex flex-col sm:flex-row items-center gap-4 mb-2 sm:mb-4">
+                  <div className="text-4xl mb-2 sm:mb-0">{project.image}</div>
+                  <div className="flex-1 w-full">
+                    <h3 className="text-xl sm:text-2xl font-semibold text-white mb-2 font-mono">
                       {project.title}
                     </h3>
                     <p className="text-gray-300 text-sm leading-relaxed font-mono">
                       {project.description}
                     </p>
                   </div>
-                  <div className="bg-white text-black text-xs px-3 py-1 rounded-full font-mono font-semibold">
+                  <div className="bg-white text-black text-xs px-3 py-1 rounded-full font-mono font-semibold whitespace-nowrap mt-2 sm:mt-0">
                     August, 2025
                   </div>
                 </div>
-                
                 {/* Technologies */}
-                <div className="flex flex-wrap gap-2 mb-4">
+                <div className="flex flex-wrap gap-2 mb-2 sm:mb-4 justify-center sm:justify-start">
                   {project.technologies.map((tech, index) => (
                     <span 
                       key={index}
@@ -62,9 +61,8 @@ function Projects() {
                     </span>
                   ))}
                 </div>
-                
                 {/* Project Links */}
-                <div className="flex gap-3">
+                <div className="flex flex-col sm:flex-row gap-3 justify-center sm:justify-start">
                   <a 
                     href={project.presentation}
                     download
@@ -76,11 +74,13 @@ function Projects() {
               </div>
 
               {/* Embedded PDF Viewer */}
-              <div className="p-6">
-                <PDFViewer 
-                  pdfUrl="/HuBMAP_Presentation_Lasota.pdf"
-                  title="HuBMAP Presentation" 
-                />
+              <div className="p-4 sm:p-6 w-full">
+                <div className="w-full max-w-full aspect-video sm:aspect-[4/3] rounded-lg overflow-hidden">
+                  <PDFViewer 
+                    pdfUrl="/HuBMAP_Presentation_Lasota.pdf"
+                    title="HuBMAP Presentation" 
+                  />
+                </div>
               </div>
             </div>
           ))}
