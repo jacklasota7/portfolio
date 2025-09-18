@@ -70,15 +70,9 @@ function Projects() {
                   >
                     Download Original
                   </a>
-                </div>
-              </div>
-
-              {/* Embedded PDF Viewer */}
-              <div className="p-4 sm:p-6 w-full">
-                <div className="w-full max-w-full aspect-video sm:aspect-[4/3] rounded-lg overflow-hidden">
                   <PDFViewer 
                     pdfUrl="/HuBMAP_Presentation_Lasota.pdf"
-                    title="HuBMAP Presentation" 
+                    title="View PDF" 
                   />
                 </div>
               </div>
