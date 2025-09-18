@@ -48,7 +48,7 @@ function About() {
               Who I Am
             </h3>
             <p className="text-sm text-gray-300 leading-relaxed font-mono">
-              As I finish my degree in Computational Biology, I've been drawn to the challenge of building and understanding computational tools. Along the way, I've strengthened my programming skills in Python and JAVA through coursework and my HuBMAP internship. To push myself further, I began learning React and built this website from scratch, discovering how much I enjoy the creative side of programming. Looking ahead, I'm excited to dive deeper into machine learning, artificial intelligence, and their everyday applications.
+              As I finish my degree in Computational Biology, I've been drawn to the challenge of building and understanding computational tools. Along the way, I've strengthened my programming skills in Python and JAVA through coursework and my HuBMAP internship. To push myself further, I began learning React and built this website from scratch, discovering how much I enjoy the creative side of programming. Looking ahead, I’m excited to grow my skills in software development and apply them to create practical tools that solve real-world problems.
             </p>
 
             <p className="text-sm text-gray-300 leading-relaxed font-mono">

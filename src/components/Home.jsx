@@ -16,8 +16,7 @@ function Home() {
           </h2>
           
           <p className="text-lg text-gray-400 mb-8 leading-relaxed font-mono">
-            I'm passionate about the intersection of biology and computer science, 
-            developing tools that make complex biological data more interpretable.
+            I’m passionate about bridging biology, healthcare, and computer science to design computational approaches that empower more data-driven, innovative healthcare solutions.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">
