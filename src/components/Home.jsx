@@ -16,7 +16,7 @@ function Home() {
           </h2>
           
           <p className="text-lg text-gray-400 mb-8 leading-relaxed font-mono">
-            I’m passionate about exploring the intersection of biology, healthcare, and computer science—building technologies that transform data into insights that shape the future of healthcare.
+            I’m passionate about exploring the intersection of biology, healthcare, and computer science, building technologies that transform data into insights that shape the future of healthcare.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">
