@@ -2,11 +2,11 @@ function Home() {
   return (
     <section 
       id="home"
-      className="min-h-screen flex items-center justify-center relative bg-black pt-24 sm:pt-16 md:pt-0"
+      className="min-h-screen flex items-center justify-center relative bg-black pt-16"
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-0 flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12">
         {/* Left side - Text content */}
-        <div className="flex-1 text-left max-w-2xl w-full mt-4 sm:mt-0">
+        <div className="flex-1 text-left max-w-2xl w-full">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 gradient-text leading-tight font-mono">
             Hi, I'm <span className="text-white">Jack Lasota</span>
           </h1>

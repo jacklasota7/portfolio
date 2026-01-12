@@ -2,7 +2,7 @@ function Skills() {
   return (
     <section
       id="skills"
-      className="min-h-screen py-20 bg-black"
+      className="min-h-screen pt-36 pb-20 bg-black"
     >
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-8">
