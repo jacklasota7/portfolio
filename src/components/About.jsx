@@ -6,10 +6,10 @@ function About() {
     >
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-8">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-2 font-mono">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 font-mono">
             About <span className="text-white">Me</span>
           </h2>
-          <div className="w-32 h-1 bg-white mx-auto"></div>
+          <div className="w-100 h-1 bg-white mx-auto mb-6"></div>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-8 items-start mb-8">

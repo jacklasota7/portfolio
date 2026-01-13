@@ -62,7 +62,7 @@ function Contact() {
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 font-mono">
             Get In <span className="text-white">Touch</span>
           </h2>
-          <div className="w-32 h-1 bg-white mx-auto mb-6"></div>
+          <div className="w-100 h-1 bg-white mx-auto mb-6"></div>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto font-mono">
             I'm always interested in hearing about internship and job opportunities, as well as exciting projects. 
             Feel free to reach out if you'd like to collaborate or just want to say hello!

@@ -23,7 +23,7 @@ function Projects() {
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 font-mono">
             My <span className="text-white">Projects</span>
           </h2>
-          <div className="w-32 h-1 bg-white mx-auto mb-6"></div>
+          <div className="w-100 h-1 bg-white mx-auto mb-6"></div>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto font-mono">
           </p>
         </div>
